@@ -38,7 +38,7 @@ describe('fizzBuzzer', function() {
     ];
     badInputs.forEach(function(input) {
       (function() {
-          fizzBuzzer(input[0])
+          fizzBuzzer(input)
       }).should.throw(Error);
     });
   });
